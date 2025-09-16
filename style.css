@@ -233,3 +233,182 @@
         font-size: 1rem;
     }
 }
+
+.project-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(32, 28, 28);
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+
+}
+.project-sub-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.project-text{
+    font-size: 4rem;
+    color: #00bfff;
+}
+
+.project-info-container{
+    display: flex;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 30%;
+    border: 1px solid white;
+}
+
+.project-image{
+    width: 100%;
+    height: 250px;
+}
+
+.project-info-container{
+    color: white;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.project-name{
+    font-size: 1.5rem;
+}
+
+.project-desc{
+    font-size: 1.05rem;
+}
+
+.view-project{
+    padding: 1rem 1.5rem;
+    background-color: purple;
+    width: fit-content;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%; 
+    }
+    .project-text {
+        font-size: 2.5rem;
+    }
+}
+
+
+.contact-container{
+    width: 100%;
+
+}
+
+.contact-form-container{
+    display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
