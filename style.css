@@ -188,3 +188,48 @@
     justify-content: center;
     align-items: center;
 }
+
+.about-container{
+    width: 100%;
+    padding: 15% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 28, 28);
+}
+
+.about-sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    box-shadow: 0px 10px 10px white;
+    padding: 4rem 2rem;
+
+}
+
+.about-header{
+    text-align: center;
+    font-size: 4rem;
+    color: #00bfff;
+
+}
+
+.about-card{
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-container{
+        padding: 30% 5%;
+    }
+    .about-header{
+        font-size: 2rem;
+    }
+    .about-card{
+        font-size: 1rem;
+    }
+}
